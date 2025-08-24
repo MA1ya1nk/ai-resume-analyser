@@ -11,6 +11,7 @@ export function meta({}: Route.MetaArgs) {
     const navigate = useNavigate();
 
     useEffect(() => {
+        // if(auth.isAuthenticated) navigate('/auth?next=/') this is the real one
         if(auth.isAuthenticated) navigate('/')
     },[auth.isAuthenticated])
   return [
