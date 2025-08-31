@@ -77,7 +77,7 @@ const upload = () => {
         // })
         if(!file) return ;
 
-        handleAnalyze({companyName, jobTitle, jobDescription, file});
+         handleAnalyze({companyName, jobTitle, jobDescription, file});
     }
     return (
         <main className="bg-[url('/images/bg-main.svg')] bg-cover">
