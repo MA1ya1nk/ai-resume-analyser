@@ -1,4 +1,4 @@
-
+// this is the info about a resume initially as a demo
 export const resumes: Resume[] = [
     {
         id: "1",
@@ -182,6 +182,7 @@ export const resumes: Resume[] = [
     },
 ];
 
+// this is the format in which you want response of your resume from AI
 export const AIResponseFormat = `
       interface Feedback {
       overallScore: number; //max 100
@@ -226,6 +227,7 @@ export const AIResponseFormat = `
       };
     }`;
 
+// What you tell the AI to do when analyzing the resume.
 export const prepareInstructions = ({
                                         jobTitle,
                                         jobDescription

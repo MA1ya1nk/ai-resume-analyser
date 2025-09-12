@@ -1,3 +1,4 @@
+// file system item
 interface FSItem {
     id: string;
     uid: string;
