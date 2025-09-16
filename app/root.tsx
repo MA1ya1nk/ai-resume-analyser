@@ -26,7 +26,8 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-    const { init } = usePuterStore();
+    const { init } = usePuterStore(); // this init function check whether puter is(It sets up the connection between your app and Puter’s backend services (KV, Auth, FS, AI).
+    // Without this, puter.kv, puter.auth, etc. don’t know which workspace / user context to operate in.)
 
     useEffect(()=>{
         init()

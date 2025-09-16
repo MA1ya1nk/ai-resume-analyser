@@ -19,7 +19,10 @@ const Navbar = () => {
                 </Link>
                 <Link to="/auth" className="primary-button w-fit">
                     {auth.isAuthenticated ? (
-                        <p>Log Out</p>
+                       // <p>Log Out</p>
+                        <button className="cursor-pointer" onClick={auth.signOut}>
+                            <p>Log Out</p>
+                        </button>
                     ): (
                         <p>Log In</p>
                     )}

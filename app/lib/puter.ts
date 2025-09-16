@@ -96,9 +96,15 @@ interface PuterStore {
     clearError: () => void;
 }
 
+
+// Checks if window.puter is available (so it won’t break during SSR / Next.js server-side code).
 const getPuter = (): typeof window.puter | null =>
 typeof window !== "undefined" && window.puter ? window.puter : null;
 
+// Instead of calling window.puter.* everywhere in your app, you:
+// Wrap all Puter.js APIs inside a Zustand store (usePuterStore)
+// Handle loading, errors, and authentication state in one place
+// Make it easy to call usePuterStore.getState().fs.write(...) anywhere in your app
 export const usePuterStore = create<PuterStore>((set, get) => {
     const setError = (msg: string) => {
         set({

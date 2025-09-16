@@ -1,14 +1,14 @@
 const ScoreCircle = ({ score = 75 }: { score: number }) => {
     const radius = 40;
-    const stroke = 8;
+    const stroke = 8; // thickness of circle outline
     const normalizedRadius = radius - stroke / 2;
-    const circumference = 2 * Math.PI * normalizedRadius;
+    const circumference = 2 * Math.PI * normalizedRadius; // perimeter of circle
     const progress = score / 100;
-    const strokeDashoffset = circumference * (1 - progress);
+    const strokeDashoffset = circumference * (1 - progress);  // how much part of circle is hidden
 
     return (
         <div className="relative w-[100px] h-[100px]">
-            <svg
+            <svg  // svg tag used for circle
                 height="100%"
                 width="100%"
                 viewBox="0 0 100 100"
