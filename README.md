@@ -41,6 +41,7 @@ Create a production build:
 ```bash
 npm run build
 ```
+<img width="1920" height="871" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/afaf055e-dafe-4602-aa15-e5fa37ebf3aa" />
 
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
