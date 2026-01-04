@@ -50,6 +50,21 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 Built with ❤️ using React Router.
 
 
-## Contact
+---
 
-For any inquiries or support, please contact us at [support@getmeachai.com](mailto:mk20040307@gmail.com).
+## 👨‍💻 Author
+
+**Mayank Kumar**
+
+* GitHub: [https://github.com/MA1ya1nk](https://github.com/MA1ya1nk)
+* LinkedIn: [www.linkedin.com/in/mayank-kumar-dev](www.linkedin.com/in/mayank-kumar-dev)
+* Email: [mk20040307@gmail.com](mk20040307@gmail.com)
+* Portfolio: [https://portfolio-mak.netlify.app/](https://portfolio-mak.netlify.app/)
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
