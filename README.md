@@ -46,6 +46,8 @@ npm run build
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
----
+## Contact
+
+For any inquiries or support, please contact us at [support@getmeachai.com](mailto:mk20040307@gmail.com).---
 
 Built with ❤️ using React Router.
